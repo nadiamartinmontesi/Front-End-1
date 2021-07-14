@@ -1,0 +1,27 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(241, 233, 223);
+}
+header img{
+    height: 200px;
+}
+
+section.banner{
+    background-image: url(../img/banner.jpg);
+    background-size: contain;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+span.bold{
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+}

@@ -1,7 +1,7 @@
 header{
     text-align: center;
 }
-#logo{
+.logo{
     background-color:#E5E5E5;
 }
 
@@ -29,10 +29,19 @@ ul{
     color: #000000;
 }
 
+span{
+    font-weight: bold;
+}
+
+span.datos{
+    font-style: italic;
+}
+
 footer{
     background-color: #005677;
     font-family: 'Times New Roman', Times, serif;
     color:white;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
