@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    margin: 0px;
+    font-family: Roboto, sans serif;
+}
+
+.descuento {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    color: #000;
+    height: 38px;
+}
+
+.descuento p{
+    padding: 10px;
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    background-color: #00669F;
+    height: 101px;
+    position: sticky;
+    top: 0px;
+    box-shadow: 4px 4px 25px lightslategray;
+}
+
+h1{
+    font-size: 40px;
+    color: #000;
+    padding: 28px 868px 26px 28px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+main{
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section{
+    height: 529px;
+    width: 300px;
+}
+
+section i{
+    color: red;
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+
+/*.cajaUno{
+    background-color: blue;
+    width: 300px;
+    height: 529px;
+    display: inline-block;
+}*/
+
+div.fondoUnoTres {
+    width: 100%;
+    height: 200px;
+    background-image:url(../img/baticueva.png);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    border: 0px;
+}
+
+div.fondoDos {
+    width: 100%;
+    height: 200px;
+    background-image:url(../img/explosion.png);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    border: 0px;
+}
+
+article{
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+div.batmanPerfil{
+    height: 100px;
+    width: 100px;
+    background-image: url(../img/batman.png);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+}
+
+div.harleyPerfil{
+    height: 100px;
+    width: 100px;
+    background-image: url(../img/harley.png);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+}
+
+h2{
+    margin: 0px;
+    text-transform:uppercase;
+    font-weight: normal;
+}
+
+article p{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+article a{
+    background-color: #00669F;
+    width: 130px;
+    height: 50px;
+    position: relative;
+    bottom: 18px;
+}
+
+h3{
+    font-size: 15px;
+    color: #F3F3F3;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/*.cajaDos{
+    background-color: blue;
+    width: 300px;
+    height: 529px;
+    display: inline-block;
+}*/
+
+/*.cajaTres{
+    background-color: blue;
+    width: 300px;
+    height: 529px;
+    display: inline-block;
+}*/
+
+footer{
+    width: 100%;
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 16px;
+    height: 51px;
+    bottom: 0px;
+}
+
+.derechos{
+    margin: 0px;
+    padding: 16px;
+}
