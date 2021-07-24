@@ -9,17 +9,17 @@
     <title>Front Cat&Dog</title>
 </head>
 <body>
+    <section class="barra-superior">
+        <span class="ofertas">Grandes ofertas en comederos</span>
+        <ul class="menu-superior">
+            <li>Español<i class="fas fa-angle-down"></i></li>
+            <li>$ARG<i class="fas fa-angle-down"></i></li>
+        </ul>
+    </section>
     <header>
-        <section class="barra-superior">
-            <p>Grandes ofertas en comederos</p>
-            <ul>
-                <li>Español</li>
-                <li>$ARG</li>
-            </ul>
-        </section>
         <section class='barra-menu-principal'>
             <img src='img/Logo.png' alt="Logo Cat&Dog">
-            <ul type="none">
+            <ul class="menu-principal" type="none";>
                 <li><i class="fas fa-paw"></i>Categorias</li>
                 <li><i class="fas fa-paw"></i>Pets</li>
                 <li><i class="fas fa-paw"></i>Nosotros</li>
@@ -33,35 +33,61 @@
             <p>¡Comederos en descuento!</p>
             <span class='boton-comederos'>COMEDEROS</span>
         </section>
-        <section>
-            <img src='img/pawprint-1.png' alt='Dibujo de huella'>
-            <h2>Productos destacados</h2>
-            <p>Comederos - Accesorios - Comida</p>
-            <section class='productos'>
-                <img src='img/churrasquito.png' alt='churrasco'>
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
-                <img src='img/churrasquito.png' alt='churrasco'>
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
-                <img src='img/churrasquito.png' alt='churrasco'>
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
-            </section>
+        <section class="destacados">
+            <img class ='imagen-destacado' src='./img/pawprint-1.png' alt='Dibujo de huella'>
+            <h2>Productos Destacados</h2>
+            <ul class="lista-destacados">
+                <li>Comederos</li>
+                <li>-</li>
+                <li>Accesorios</li>
+                <li>-</li>
+                <li>Comida</li>
+            </ul>
+            <div class='productos'>
+                <article>
+                    <img src='./img/churrasquito.png' alt='churrasco'>
+                    <p class="titulo-articulo">Juguete Churrasquito</p>
+                    <p class="precio">$150</p>
+                </article>
+                <article>
+                    <img src='./img/comedero.png' alt='churrasco'>
+                    <p class="titulo-articulo">Comedero para perro</p>
+                    <p class="precio">$250</p>
+                </article>
+                <article>
+                    <img src='./img/Huesito.png' alt='churrasco'>
+                    <p class="titulo-articulo">Juguete Huesito</p>
+                    <p class="precio">$650</p>
+                </article>
+            </div>
         </section>
     </main>
     <footer>
         <section class= 'iconos-footer'>
-            <img src='./img/Icono-location.png' alt='Icono location'><br>
-            <p>Localidad</p>
-            <p>Calle - provincia</p>
-            <img src='./img/Icono-telefono.png' alt='Icono telefono'><br>
-            <p>Teléfono</p>
-            <p>Número de teléfono</p>
-            <img src='./img/Icono-correo.png' alt='Icono correo electronico'>
-            <p>Correo Electrónico</p>
-            <p>Dirección de correo</p>
-            <img src='img/Logo-footer.png' alt="Logo Cat&Dog">
+            <div class="div-iconos">
+                <article>
+                    <img src='./img/Icono-location.png' alt='Icono location'>
+                    <div class='texto'>
+                        <p class="p-uno">Localidad</p>
+                        <p class="p-dos">Calle - provincia</p>
+                    </div>
+                </article>
+                <article>
+                    <img src='./img/Icono-telefono.png' alt='Icono telefono'>
+                    <div class='texto'>
+                        <p class="p-uno">Teléfono</p>
+                        <p class="p-dos">Número de teléfono</p>
+                    </div>
+                <article>
+                </article>
+                    <img src='./img/Icono-correo.png' alt='Icono correo electronico'>
+                    <div class='texto'>
+                        <p class="p-uno">Correo Electrónico</p>
+                        <p class="p-dos">Dirección de correo</p>
+                    </div>
+                </article>
+            </div>
+            <img class='logo' src='img/Logo-footer.png' alt="Logo Cat&Dog">
         </section>
         <p class='derechos-footer'>Todos los derechos reservados Front End</p>
     </footer>
