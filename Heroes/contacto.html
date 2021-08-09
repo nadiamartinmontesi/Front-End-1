@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+        crossorigin="anonymous"
+        />
+        <link href="./css/style.css" rel="stylesheet" />
+        <title>Contacto</title>
+    </head>
+    <body>
+        <div class="descuento">
+            <p>20% de descuento en todos los productos!</p>
+        </div> 
+        <header>
+            <section class="section-header">
+                <div class="logo-ecommerce"></div>
+                <h1>Nombre Tienda</h1>
+            </section>
+            <nav class="menu-header">
+                <ul>
+                    <a href="./index.html"><li>Inicio</li></a>  
+                    <a href="./contacto.html"><li>Contacto</li></a>
+                    <a href="./registro.html"><li>Registrarme</li</a>
+                    <a href="./login.html"><li>Ingresar</li></a>
+                </ul>
+            </nav>
+        </header>
+        <main class="contacto">
+            <form action="/contacto" method="POST">
+                <h2>Contacto</h2>
+                <input type="text" name="nombre-apellido" placeholder="Nombre y Apellido" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <textarea name="comentario" id="comentario" cols="30" rows="10">Comentario</textarea>
+                <div class="dos-botones">
+                    <button class="resetear" type="reset">Resetear</button>
+                    <button type="submit">Registrar</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p class="derechos">Todos los derechos reservados a FRONT END 1</p>
+        </footer>
+    </body>
+</html>
