@@ -302,6 +302,12 @@ main form input, select, textarea{
     margin-bottom: 1rem;
 }
 
+main.contacto form textarea.comentario{
+    border-style: solid;
+    border-width: thin;
+    width: auto;
+}
+
 main form button{
     font-family: inter, Roboto;
     font-weight: 700;
@@ -380,7 +386,6 @@ main.agregar section.fondo-azul{
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     width: 90%;
     align-items: center;
     height: auto;
@@ -407,7 +412,6 @@ main.agregar form{
     margin: 0;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -415,7 +419,6 @@ main.agregar form div.formulario{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
     padding-top: 3rem;
 }
 
@@ -426,7 +429,7 @@ main.agregar form div.formulario div{
     width: 49%;
 }
 
-main form div div label{
+main.agregar form div div label{
     display: block;
     color: #fff;
     font-family: inter, roboto;
@@ -435,18 +438,18 @@ main form div div label{
     padding-bottom: 1rem;
 }
 
-main form div div input, textarea{
+main.agregar form div div input, textarea{
     border-radius: 1rem;
     border: none;
     width: 90%;
 }
 
-main form div div textarea{
+main.agregar form div div textarea{
     height: 16.875rem;
     margin-bottom: 0px;
 }
 
-main form div div select{
+main.agregar form div div select{
     margin-bottom: 1rem;
     border-radius: 1rem;
     border: none;
@@ -455,39 +458,39 @@ main form div div select{
     padding-bottom: 1rem;
 }
 
-main form div div input.file{
+main.agregar form div div input.file{
     font-size: 0.8rem;
     padding: 1.25rem 0rem;
 }
 
-main form div div section.poderes, .tipo{
+main.agregar form div div section.poderes, .tipo{
     height: auto;
     margin-bottom: 0;
 }
 
-main form div div section.poderes input{
+main.agregar form div div section.poderes input{
     width: 5%;
 }
 
-main form div div section.poderes label{
+main.agregar form div div section.poderes label{
     display: inline;
 }
 
-main form div div section.poderes label{
+main.agregar form div div section.poderes label{
     font-family: inter, roboto;
     font-weight: 300;
     font-size: 1rem;
 }
 
-main form div div section.tipo input{
+main.agregar form div div section.tipo input{
     width: 5%;
 }
 
-main form div div section.tipo label{
+main.agregar form div div section.tipo label{
     display: inline;
 }
 
-main form div div section.tipo label{
+main.agregar form div div section.tipo label{
     font-family: inter, roboto;
     font-weight: 300;
     font-size: 1rem;
@@ -545,6 +548,10 @@ hr{
     main.agregar section.fondo-azul{
         width: 100%;
     }
+
+    main.agregar section form div.formulario{
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width:550px){
@@ -592,5 +599,13 @@ hr{
         font-weight: 400;
         color: #FFF9F9;
         padding: 0.2rem 2rem;
+    }
+
+    main.agregar{
+        padding: 3rem 2rem;
+    }
+
+    main.agregar section.fondo-azul{
+        margin: 1rem 0rem;
     }
 }
